@@ -9,6 +9,8 @@
     "navigationBarTitleText": "Weixin",
     "navigationBarTextStyle": "black"
   },
-  "style": "v2",
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index"
+  },
   "sitemapLocation": "sitemap.json"
 }

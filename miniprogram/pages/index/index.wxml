@@ -19,5 +19,6 @@
   </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
+    <van-button type="primary">按钮</van-button>
   </view>
 </view>

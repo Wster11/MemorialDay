@@ -12,7 +12,15 @@
     "beforePreview": "npm run tsc",
     "beforeUpload": "npm run tsc"
   },
-  "setting": {},
+  "setting": {
+    "packNpmManually": true,
+    "packNpmRelationList": [
+      {
+        "packageJsonPath": "./package.json",
+        "miniprogramNpmDistDir": "./miniprogram/"
+      }
+    ]
+  },
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
   "appid": "wx1ab68fcb3d467d62",
